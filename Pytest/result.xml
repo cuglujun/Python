@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skipped="0" tests="1" time="0.061"><testcase classname="test_demo.TestClass" file="test_demo.py" line="8" name="test_func" time="0.001"><failure message="assert 4 == 5
+  -4
+  +5">self = &lt;test_demo.TestClass object at 0x10c4240b8&gt;
+
+    def test_func(self):
+&gt;       assert self.func(3) == 5
+E       assert 4 == 5
+E         -4
+E         +5
+
+test_demo.py:10: AssertionError</failure></testcase></testsuite>
